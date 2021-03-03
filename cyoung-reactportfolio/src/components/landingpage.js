@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl'
+import { Grid, Cell } from 'react-mdl';
 
 class Landing extends Component{
     render (){
@@ -8,7 +8,7 @@ class Landing extends Component{
                 <Grid className='landingGrid'>
                     <Cell col={12}>
                         <img 
-                            src='./public/images/cailinavatar'
+                            src="cailinavatar.png"
                             alt="cailin young avatar" 
                             className="avatar-image"
                         />
@@ -23,11 +23,11 @@ class Landing extends Component{
                             </p>
                             <div className="social-links">
                                 {/* linkdin */}
-                                <a href="http:/google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://www.linkedin.com/in/cailinfayyoung/" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                 </a>
                                 {/* github */}
-                                <a href="http:/google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://github.com/cailinyoung" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                                 </a>
                             </div>
