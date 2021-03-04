@@ -1,10 +1,48 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
+import Education from './education';
 
 class Resume extends Component{
     render (){
         return (
             <div>
-                <h1> Resume Page</h1>
+                <Grid>
+                    <Cell className="resume-left-column" col={4}>
+                        <div style={{textAlign:"center"}}>
+                            <img
+                                src="/assets/images/cailinavatar.png"
+                                alt="cailin young avatar"
+                                style={{height:'200px'}}
+                            />
+                        </div>
+                        <h2 style={{paddingTop: '2em'}}>Cailin Young</h2>
+                        <h4 style={{color: 'gray'}}>Software Developer</h4>
+                        <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
+                        <p>description</p>
+                        <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
+                        <h5>Address</h5>
+                        <p>3019 S 1320 W Perry, Utah 84302</p>
+                        <h5>Phone Number</h5>
+                        <p>(435)-720-0337</p>
+                        <h5>Email</h5>
+                        <p>cailinfayyoung@gmail.com</p>
+                        <h5>Github</h5>
+                        <p>https://github.com/cailinyoung</p>
+                        <h5>Linkedin</h5>
+                        <p>https://www.linkedin.com/in/cailinfayyoung/</p>
+                        <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
+
+                    </Cell>
+                    <Cell className="resume-right-column" col={8}>
+                        <h2>Education</h2>
+
+                        <Education
+                            startYear={2020}/>
+
+
+                        <p></p>
+                    </Cell>
+                </Grid>
             </div>
         )
     }

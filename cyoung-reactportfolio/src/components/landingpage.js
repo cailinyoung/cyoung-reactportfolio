@@ -8,7 +8,7 @@ class Landing extends Component{
                 <Grid className='landingGrid'>
                     <Cell col={12}>
                         <img 
-                            src="cailinavatar.png"
+                            src="/assets/images/cailinavatar.png"
                             alt="cailin young avatar" 
                             className="avatar-image"
                         />
@@ -21,15 +21,25 @@ class Landing extends Component{
                             <p>
                                 HTML | CSS | JAVASCRIPT | MYSQL | NODE JS | REACT | MONGODB | EXPRESS
                             </p>
+
                             <div className="social-links">
                                 {/* linkdin */}
-                                <a href="https://www.linkedin.com/in/cailinfayyoung/" rel="noopener noreferrer" target="_blank">
+                                <a href="https://www.linkedin.com/in/cailinfayyoung/" rel="noopener noreferrer" target="_blank" alt="linkedin">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                 </a>
-                                {/* github */}
-                                <a href="https://github.com/cailinyoung" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-github-square" aria-hidden="true"/>
+                                {/* resume */}
+                                <a href="https://github.com/cailinyoung" rel="noopener noreferrer" target="_blank" alt="resume">
+                                    <i className="fa fa-id-card" aria-hidden="true"/>
                                 </a>
+                                {/* github */}
+                                <a href="https://github.com/cailinyoung" rel="noopener noreferrer" target="_blank" alt="github">
+                                    <i className="fa fa-github" aria-hidden="true"/>
+                                </a>
+                            </div>
+                            <div className="contact-links">
+                                <i className="fa fa-phone-square" aria-hidden="true"/>435-720-0337
+                                <br/>
+                                <i className="fa fa-envelope" aria-hidden="true"/> cailinfayyoung@gmail.com
                             </div>
                         </div>
                     </Cell>
