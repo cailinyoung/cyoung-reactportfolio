@@ -35,13 +35,13 @@ class Resume extends Component{
 
                     </Cell>
                     <Cell className="resume-right-column" col={8}>
-                        <h2>Education</h2>
+                        <h2>Education and Experience</h2>
 
                         <Education
                             startYear={2020}
                             endYear={2021}
                             schoolName="University of Utah"
-                            schoolDescription="Full Stack Flex Coding Bootcamp"
+                            schoolDescription="Full Stack Flex Coding Bootcamp - Certificate"
                             />
                         <hr style={{borderTop:'3px solid white'}}/>
                         <h2>Skills</h2>
@@ -69,6 +69,8 @@ class Resume extends Component{
                             skill="React"
                             progress={40}
                         />
+                        <hr style={{borderTop:'3px solid white'}}/>
+                        <p>Download my Resume</p>
                     </Cell>
                 </Grid>
             </div>
