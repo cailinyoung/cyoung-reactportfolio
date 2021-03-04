@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
+import Skills from './skills';
 
 class Resume extends Component{
     render (){
@@ -37,10 +38,37 @@ class Resume extends Component{
                         <h2>Education</h2>
 
                         <Education
-                            startYear={2020}/>
-
-
-                        <p></p>
+                            startYear={2020}
+                            endYear={2021}
+                            schoolName="University of Utah"
+                            schoolDescription="Full Stack Flex Coding Bootcamp"
+                            />
+                        <hr style={{borderTop:'3px solid white'}}/>
+                        <h2>Skills</h2>
+                        <Skills
+                            skill="HTML/CSS"
+                            progress={90}
+                        />
+                        <Skills
+                            skill="JavaScript"
+                            progress={50}
+                        />
+                        <Skills
+                            skill="Node JS"
+                            progress={60}
+                        />
+                        <Skills
+                            skill="MongoDB"
+                            progress={50}
+                        />
+                        <Skills
+                            skill="MySQL"
+                            progress={50}
+                        />
+                        <Skills
+                            skill="React"
+                            progress={40}
+                        />
                     </Cell>
                 </Grid>
             </div>

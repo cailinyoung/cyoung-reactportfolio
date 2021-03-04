@@ -7,10 +7,9 @@
   background: #ddd6f3;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
   text-align: center;
 
-  /* position: fixed; */
+  position: fixed;
   top:0%;
   left: 0;
   width: 100%;
@@ -20,7 +19,7 @@
 
 .avatar-image{
   height: 250px;
-  padding-top: .1rem;
+  padding-top: 3rem;
 }
 
 .banner-text{
@@ -133,4 +132,9 @@
   background-size: cover;
     color: teal;
     height: 300px;
+}
+
+.progress-bar{
+  margin: auto;
+  width: 75%;
 }
