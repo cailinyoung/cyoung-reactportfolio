@@ -18,6 +18,7 @@
 
 ## Repo
 * [Repo](https://github.com/cailinyoung/cyoung-reactportfolio)
+* [Live Site](https://cailinyoung.netlify.app/)
 
 ## Contributors
 * Contributor: [Cailin Young](https://github.com/cailinyoung)
