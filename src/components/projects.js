@@ -8,7 +8,7 @@ class Projects extends Component {
                 <Grid>
                     <Cell col={6}>
                         <Card className="card-body-project" shadow={5}>
-                            <CardTitle className="card-title" style={{backgroundImage:"url('assets/images/passwordgen.png')"}}>Password Generator</CardTitle>
+                            <CardTitle className="card-title" style={{backgroundImage:"url('assets/images/passwordgen.png')"}}></CardTitle>
                             <CardText>Password Generator</CardText>
                             <CardActions border>
                                 <Button colored href="https://github.com/cailinyoung/c-young-password-generator">GitHub</Button>
@@ -19,7 +19,7 @@ class Projects extends Component {
                             </CardMenu>
                         </Card>
                         <Card className="card-body-project" shadow={5}>
-                            <CardTitle className="card-title" style={{backgroundImage:"url('assets/images/dayplanner.png')"}}>Day Planner</CardTitle>
+                            <CardTitle className="card-title" style={{backgroundImage:"url('assets/images/dayplanner.png')"}}></CardTitle>
                             <CardText>Day Planner</CardText>
                             <CardActions border>
                                 <Button colored href="https://github.com/cailinyoung/cyoung-dayplanner">GitHub</Button>
@@ -30,8 +30,8 @@ class Projects extends Component {
                             </CardMenu>
                         </Card>
                         <Card className="card-body-project" shadow={5}>
-                            <CardTitle className="card-title" style={{backgroundImage:"url('assets/images/projectone.png')"}}>Project 1 - CEDS Travel</CardTitle>
-                            <CardText>Project 1 - CEDS Travel</CardText>
+                            <CardTitle className="card-title" style={{backgroundImage:"url('assets/images/projectone.png')"}}></CardTitle>
+                            <CardText>Project 1 - NPOCA</CardText>
                             <CardActions border>
                                 <Button colored href="https://github.com/chloewils/weatherNationalParks">GitHub</Button>
                                 <Button colored href="https://chloewils.github.io/weatherNationalParks">LiveSite</Button>
@@ -43,18 +43,18 @@ class Projects extends Component {
                     </Cell>
                 <Cell col={6}>
                     <Card className="card-body-project" shadow={5}>
-                            <CardTitle className="card-title" style={{backgroundImage:"url('assets/images/fitnesstracker.png')"}}>Fitness Tracker</CardTitle>
-                            <CardText>nice</CardText>
+                            <CardTitle className="card-title" style={{backgroundImage:"url('assets/images/fitnesstracker.png')"}}></CardTitle>
+                            <CardText>Fitness Tracker</CardText>
                             <CardActions border>
                                 <Button colored href="https://github.com/cailinyoung/c-young-hw17">GitHub</Button>
-                                <Button colored href=" https://c-young-hw17.herokuapp.com/?id=603af31eca7fde0015042cdd">LiveSite</Button>
+                                <Button colored href=" https://c-young-hw17.herokuapp.com/?id=603af31eca7fde0015042cdd"></Button>
                             </CardActions>
                             <CardMenu style={{color:'#fff'}}>
                                 <IconButton name="share"/>
                             </CardMenu>
                         </Card>
                         <Card className="card-body-project" shadow={5}>
-                            <CardTitle className="card-title" style={{backgroundImage:"url('assets/images/notetaker.png')"}}>Note Taker</CardTitle>
+                            <CardTitle className="card-title" style={{backgroundImage:"url('assets/images/notetaker.png')"}}></CardTitle>
                             <CardText>Note Taker</CardText>
                             <CardActions border>
                                 <Button colored href="https://github.com/cailinyoung/cyoung-notetaker">GitHub</Button>
@@ -65,7 +65,7 @@ class Projects extends Component {
                             </CardMenu>
                         </Card>
                         <Card className="card-body-project" shadow={5}>
-                            <CardTitle className="card-title" style={{backgroundImage:"url('assets/images/nodejs.png')"}}>NodeJS</CardTitle>
+                            <CardTitle className="card-title" style={{backgroundImage:"url('assets/images/nodejs.png')"}}></CardTitle>
                             <CardText>NodeJS</CardText>
                             <CardActions border>
                                 <Button colored href="https://github.com/cailinyoung/cyoung-nodeJS">GitHub</Button>

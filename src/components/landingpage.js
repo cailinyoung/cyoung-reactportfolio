@@ -28,7 +28,7 @@ class Landing extends Component{
                                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                 </a>
                                 {/* resume */}
-                                <a href="https://github.com/cailinyoung" rel="noopener noreferrer" target="_blank" alt="resume">
+                                <a href="https://drive.google.com/file/d/1iYLOGZ21ibv1J9sSgbAgHyfQlTRouUYm/view?usp=sharing" rel="noopener noreferrer" target="_blank" alt="resume">
                                     <i className="fa fa-id-card" aria-hidden="true"/>
                                 </a>
                                 {/* github */}
