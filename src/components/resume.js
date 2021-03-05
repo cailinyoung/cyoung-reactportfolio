@@ -3,24 +3,30 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Skills from './skills';
 
-class Resume extends Component{
-    render (){
+class Resume extends Component {
+    render() {
         return (
             <div>
                 <Grid>
                     <Cell className="resume-left-column" col={4}>
-                        <div style={{textAlign:"center"}}>
+                        <div style={{ textAlign: "center" }}>
                             <img
                                 src="/assets/images/cailinavatar.png"
                                 alt="cailin young avatar"
-                                style={{height:'200px'}}
+                                style={{ height: '200px' }}
                             />
                         </div>
-                        <h2 style={{paddingTop: '2em'}}>Cailin Young</h2>
-                        <h4 style={{color: 'gray'}}>Software Developer</h4>
-                        <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
-                        <p>description</p>
-                        <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
+                        <h2 style={{ paddingTop: '2em' }}>Cailin Young</h2>
+                        <h4 style={{ color: 'gray' }}>Software Developer</h4>
+                        <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+                        <p>Full stack web developer with a strong background in
+                        customer service, ready to use my skills, and grow forward in
+                        the world of software development.
+                        Earned a certificate in Full Stack Web Development from the
+                        University of Utah Coding Boot Camp. Strengths in teamwork,
+                        creativity, planning, leadership, communication, time
+                        management, and determination to succeed.</p>
+                        <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
                         <h5>Address</h5>
                         <p>3019 S 1320 W Perry, Utah 84302</p>
                         <h5>Phone Number</h5>
@@ -31,7 +37,11 @@ class Resume extends Component{
                         <p>https://github.com/cailinyoung</p>
                         <h5>Linkedin</h5>
                         <p>https://www.linkedin.com/in/cailinfayyoung/</p>
-                        <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
+                        <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+                        <h5>Downloadable Resume <a href="https://drive.google.com/file/d/1iYLOGZ21ibv1J9sSgbAgHyfQlTRouUYm/view?usp=sharing" rel="noopener noreferrer" target="_blank" alt="resume">
+                            <i class="fa fa-file-pdf-o fa-lg" aria-hidden="true"></i>
+                        </a></h5>
+
 
                     </Cell>
                     <Cell className="resume-right-column" col={8}>
@@ -42,8 +52,8 @@ class Resume extends Component{
                             endYear={2021}
                             schoolName="University of Utah"
                             schoolDescription="Full Stack Flex Coding Bootcamp - Certificate"
-                            />
-                        <hr style={{borderTop:'3px solid white'}}/>
+                        />
+                        <hr style={{ borderTop: '3px solid white' }} />
                         <h2>Skills</h2>
                         <Skills
                             skill="HTML/CSS"
@@ -69,8 +79,7 @@ class Resume extends Component{
                             skill="React"
                             progress={40}
                         />
-                        <hr style={{borderTop:'3px solid white'}}/>
-                        <p>Download my Resume</p>
+                        <hr style={{ borderTop: '3px solid white' }} />
                     </Cell>
                 </Grid>
             </div>
