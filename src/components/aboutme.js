@@ -10,7 +10,7 @@ class AboutMe extends Component {
                         <h2> About Me</h2>
                         <img
                             className="cailin-selfie"
-                            src="./assets/images/cailinselfie.png"
+                            src="/assets/images/cailinselfie.png"
                             alt="avatar"
                             style={{ height: '250px' }}
                         />
