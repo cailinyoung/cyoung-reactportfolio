@@ -25,3 +25,6 @@
 
 ## Acknowlegdements 
 * Paul Hanna React Tutorial: (https://github.com/paulhanna1933/react-portfolio)
+
+![screenshot](screenshot.png)
+
